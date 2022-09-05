@@ -2,6 +2,8 @@
 
 A simple NodeJS module to generate Server-Sent-Events streams with a publish/subscribe interface and simple integration with either Node's built in HTTP library or any framework that exposes it, eg. [ExpressJS](https://expressjs.com).
 
+> This is a personal version of the original library with an additional `clearHistory` method.
+
 ## Usage
 
 Install with `npm i sse-pubsub`, then, if you are using Express:
